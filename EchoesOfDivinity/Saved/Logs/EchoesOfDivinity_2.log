@@ -4144,3 +4144,203 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.05.14-23.06.10:000][566]LogFileHelpers: Saving map 'DemoOpenLevel' took 0.727
 [2023.05.14-23.06.10:021][566]AssetCheck: New page: Asset Save: DemoOpenLevel
 [2023.05.14-23.06.10:022][566]LogContentValidation: Display: Validating World /Game/Levels/DemoLevels/DemoOpenLevel.DemoOpenLevel
+[2023.05.14-23.07.12:775][667]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/3D/Blueprints/Ships/BP_Ship_Destroyer.BP_Ship_Destroyer
+[2023.05.14-23.07.12:776][667]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-23.07.29:429][325]BlueprintLog: New page: Compile BP_Ship_Destroyer
+[2023.05.14-23.07.29:602][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.14-23.07.30:392][357]LogSavePackage: Moving output files for package: /Game/Assets/3D/Blueprints/Ships/BP_Ship_Destroyer
+[2023.05.14-23.07.30:393][357]LogSavePackage: Moving 'D:/Uni Files/GAD 553/GitHubRepos/Echoes-of-Divinity/EchoesOfDivinity/Saved/BP_Ship_DestroyerF5A591FE4B4419C6D0185CBBDDC6F24B.tmp' to 'D:/Uni Files/GAD 553/GitHubRepos/Echoes-of-Divinity/EchoesOfDivinity/Content/Assets/3D/Blueprints/Ships/BP_Ship_Destroyer.uasset'
+[2023.05.14-23.07.30:412][357]AssetCheck: New page: Asset Save: BP_Ship_Destroyer
+[2023.05.14-23.07.30:412][357]LogContentValidation: Display: Validating Blueprint /Game/Assets/3D/Blueprints/Ships/BP_Ship_Destroyer.BP_Ship_Destroyer
+[2023.05.14-23.07.31:399][416]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.14-23.07.31:417][416]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.05.14-23.07.31:421][416]LogPlayLevel: [PlayLevel] Compiling BP_Ship_Corvette before play...
+[2023.05.14-23.07.31:421][416]LogPlayLevel: [PlayLevel]   Compiling BP_Ship_Corvette_Comp as a dependent...
+[2023.05.14-23.07.31:422][416]LogPlayLevel: [PlayLevel]   Compiling BP_Ship_CorvettePatrol_Comp_Child as a dependent...
+[2023.05.14-23.07.31:422][416]LogPlayLevel: [PlayLevel]   Compiling BP_Ship_CorvetteTitleScreen as a dependent...
+[2023.05.14-23.07.31:758][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.14-23.07.31:761][416]LogPlayLevel: PlayLevel: Blueprint regeneration took 344 ms (4 blueprints)
+[2023.05.14-23.07.31:761][416]PIE: New page: PIE session: DemoOpenLevel (15 May 2023, 01:07:31)
+[2023.05.14-23.07.31:762][416]LogPlayLevel: Creating play world package: /Game/Levels/DemoLevels/UEDPIE_0_DemoOpenLevel
+[2023.05.14-23.07.32:002][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.240720s)
+[2023.05.14-23.07.32:002][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoLevels/DemoOpenLevel.DemoOpenLevel to /Game/Levels/DemoLevels/UEDPIE_0_DemoOpenLevel.DemoOpenLevel (0.240881s)
+[2023.05.14-23.07.32:002][416]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.05.14-23.07.32:002][416]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-23.07.32:003][416]LogAIModule: Creating AISystem for world DemoOpenLevel
+[2023.05.14-23.07.32:003][416]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2023.05.14-23.07.32:076][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.05.14-23.07.32:078][416]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.05.14-23.07.32:078][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.14-23.07.32:078][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.14-23.07.32:078][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.14-23.07.32:078][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.14-23.07.32:078][416]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.14-23.07.32:078][416]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.14-23.07.32:078][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.14-23.07.32:078][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.14-23.07.32:078][416]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.14-23.07.32:078][416]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.14-23.07.32:078][416]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.14-23.07.32:080][416]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.14-23.07.32:201][416]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.14-23.07.32:202][416]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.14-23.07.32:202][416]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.14-23.07.32:202][416]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.14-23.07.32:202][416]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.05.14-23.07.32:202][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=23
+[2023.05.14-23.07.32:203][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.05.14-23.07.32:203][416]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.05.14-23.07.32:203][416]LogInit: FAudioDevice initialized.
+[2023.05.14-23.07.32:203][416]LogAudio: Display: Audio Device (ID: 23) registered with world 'DemoOpenLevel'.
+[2023.05.14-23.07.32:222][416]LogLoad: Game class is 'Strategy_GM_C'
+[2023.05.14-23.07.32:314][416]LogWorld: Bringing World /Game/Levels/DemoLevels/UEDPIE_0_DemoOpenLevel.DemoOpenLevel up for play (max tick rate 0) at 2023.05.15-00.07.32
+[2023.05.14-23.07.32:314][416]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_Cloud.NS_Cloud:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Asteroids_Collection_1/Static_Meshes/SM_Asteroid_Mineral_Test.SM_Asteroid_Mineral_Test
+[2023.05.14-23.07.32:315][416]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudWider.NS_CloudWider:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Asteroids_Collection_1/Static_Meshes/SM_Asteroid_Mineral_Test.SM_Asteroid_Mineral_Test
+[2023.05.14-23.07.32:315][416]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudOverlap.NS_CloudOverlap:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Assets/3D/Ships/Frigate/FBX/Frigate_B.Frigate_B
+[2023.05.14-23.07.32:315][416]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudWider.NS_CloudWider:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Asteroids_Collection_1/Static_Meshes/SM_Asteroid_Mineral_Test.SM_Asteroid_Mineral_Test
+[2023.05.14-23.07.32:315][416]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudOverlap.NS_CloudOverlap:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Assets/3D/Ships/Frigate/FBX/Frigate_B.Frigate_B
+[2023.05.14-23.07.32:315][416]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_Cloud.NS_Cloud:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Asteroids_Collection_1/Static_Meshes/SM_Asteroid_Mineral_Test.SM_Asteroid_Mineral_Test
+[2023.05.14-23.07.32:315][416]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudOverlap.NS_CloudOverlap:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Assets/3D/Ships/Frigate/FBX/Frigate_B.Frigate_B
+[2023.05.14-23.07.32:322][416]LogWorld: Bringing up level for play took: 0.100056
+[2023.05.14-23.07.32:324][416]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2023.05.14-23.07.32:399][416]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.14-23.07.32:399][416]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.14-23.07.32:402][416]PIE: Server logged in
+[2023.05.14-23.07.32:402][416]PIE: Play in editor total start time 0.985 seconds.
+[2023.05.14-23.07.32:958][428]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.07.34:484][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.14-23.07.34:484][491]LogWorld: BeginTearingDown for /Game/Levels/DemoLevels/UEDPIE_0_DemoOpenLevel
+[2023.05.14-23.07.34:488][491]LogWorld: UWorld::CleanupWorld for DemoOpenLevel, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-23.07.34:501][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-23.07.34:517][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.14-23.07.34:528][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-23.07.34:601][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.14-23.07.34:608][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.05.14-23.07.34:610][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.05.14-23.07.34:670][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.14-23.07.34:700][492]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2023.05.14-23.07.43:147][ 73]LogSavePackage: Moving output files for package: /Game/Assets/3D/Blueprints/Ships/BP_Ship_Corvette
+[2023.05.14-23.07.43:148][ 73]LogSavePackage: Moving 'D:/Uni Files/GAD 553/GitHubRepos/Echoes-of-Divinity/EchoesOfDivinity/Saved/BP_Ship_Corvette87C2262E4BE05FA9FB18E094B78D5090.tmp' to 'D:/Uni Files/GAD 553/GitHubRepos/Echoes-of-Divinity/EchoesOfDivinity/Content/Assets/3D/Blueprints/Ships/BP_Ship_Corvette.uasset'
+[2023.05.14-23.07.43:163][ 73]AssetCheck: New page: Asset Save: BP_Ship_Corvette
+[2023.05.14-23.07.43:163][ 73]LogContentValidation: Display: Validating Blueprint /Game/Assets/3D/Blueprints/Ships/BP_Ship_Corvette.BP_Ship_Corvette
+[2023.05.14-23.08.07:498][455]BlueprintLog: New page: Compile BP_Ship_Destroyer_Comp
+[2023.05.14-23.08.07:625][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.05.14-23.08.08:194][477]LogSavePackage: Moving output files for package: /Game/Assets/3D/Blueprints/Ships/Enemey/BP_Ship_Destroyer_Comp
+[2023.05.14-23.08.08:194][477]LogSavePackage: Moving 'D:/Uni Files/GAD 553/GitHubRepos/Echoes-of-Divinity/EchoesOfDivinity/Saved/BP_Ship_Destroyer_Comp3A92C00A4A32438E60D0CCB875C21E69.tmp' to 'D:/Uni Files/GAD 553/GitHubRepos/Echoes-of-Divinity/EchoesOfDivinity/Content/Assets/3D/Blueprints/Ships/Enemey/BP_Ship_Destroyer_Comp.uasset'
+[2023.05.14-23.08.08:209][477]AssetCheck: New page: Asset Save: BP_Ship_Destroyer_Comp
+[2023.05.14-23.08.08:209][477]LogContentValidation: Display: Validating Blueprint /Game/Assets/3D/Blueprints/Ships/Enemey/BP_Ship_Destroyer_Comp.BP_Ship_Destroyer_Comp
+[2023.05.14-23.08.11:707][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.05.14-23.08.11:838][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.05.14-23.08.12:454][751]LogSavePackage: Moving output files for package: /Game/Levels/DemoLevels/DemoOpenLevel
+[2023.05.14-23.08.12:454][751]LogSavePackage: Moving 'D:/Uni Files/GAD 553/GitHubRepos/Echoes-of-Divinity/EchoesOfDivinity/Saved/DemoOpenLevel49BCB8ED43297E3E740B6385E3AD379C.tmp' to 'D:/Uni Files/GAD 553/GitHubRepos/Echoes-of-Divinity/EchoesOfDivinity/Content/Levels/DemoLevels/DemoOpenLevel.umap'
+[2023.05.14-23.08.12:477][751]LogFileHelpers: Saving map 'DemoOpenLevel' took 0.714
+[2023.05.14-23.08.12:498][751]AssetCheck: New page: Asset Save: DemoOpenLevel
+[2023.05.14-23.08.12:498][751]LogContentValidation: Display: Validating World /Game/Levels/DemoLevels/DemoOpenLevel.DemoOpenLevel
+[2023.05.14-23.08.12:777][769]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.14-23.08.12:791][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.14-23.08.12:791][769]PIE: New page: PIE session: DemoOpenLevel (15 May 2023, 01:08:12)
+[2023.05.14-23.08.12:791][769]LogPlayLevel: Creating play world package: /Game/Levels/DemoLevels/UEDPIE_0_DemoOpenLevel
+[2023.05.14-23.08.13:032][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.240663s)
+[2023.05.14-23.08.13:032][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DemoLevels/DemoOpenLevel.DemoOpenLevel to /Game/Levels/DemoLevels/UEDPIE_0_DemoOpenLevel.DemoOpenLevel (0.240738s)
+[2023.05.14-23.08.13:032][769]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.05.14-23.08.13:032][769]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-23.08.13:032][769]LogAIModule: Creating AISystem for world DemoOpenLevel
+[2023.05.14-23.08.13:033][769]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2023.05.14-23.08.13:106][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.14-23.08.13:109][769]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.05.14-23.08.13:109][769]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.14-23.08.13:109][769]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.14-23.08.13:109][769]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.14-23.08.13:109][769]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.14-23.08.13:109][769]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.14-23.08.13:109][769]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.14-23.08.13:109][769]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.14-23.08.13:109][769]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.14-23.08.13:109][769]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.14-23.08.13:109][769]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.14-23.08.13:109][769]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.14-23.08.13:111][769]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.14-23.08.13:230][769]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.14-23.08.13:230][769]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.14-23.08.13:230][769]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.14-23.08.13:230][769]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.14-23.08.13:231][769]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.05.14-23.08.13:231][769]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=24
+[2023.05.14-23.08.13:232][769]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.05.14-23.08.13:232][769]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.05.14-23.08.13:232][769]LogInit: FAudioDevice initialized.
+[2023.05.14-23.08.13:232][769]LogAudio: Display: Audio Device (ID: 24) registered with world 'DemoOpenLevel'.
+[2023.05.14-23.08.13:243][769]LogLoad: Game class is 'Strategy_GM_C'
+[2023.05.14-23.08.13:335][769]LogWorld: Bringing World /Game/Levels/DemoLevels/UEDPIE_0_DemoOpenLevel.DemoOpenLevel up for play (max tick rate 0) at 2023.05.15-00.08.13
+[2023.05.14-23.08.13:336][769]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_Cloud.NS_Cloud:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Asteroids_Collection_1/Static_Meshes/SM_Asteroid_Mineral_Test.SM_Asteroid_Mineral_Test
+[2023.05.14-23.08.13:336][769]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudWider.NS_CloudWider:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Asteroids_Collection_1/Static_Meshes/SM_Asteroid_Mineral_Test.SM_Asteroid_Mineral_Test
+[2023.05.14-23.08.13:337][769]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudOverlap.NS_CloudOverlap:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Assets/3D/Ships/Frigate/FBX/Frigate_B.Frigate_B
+[2023.05.14-23.08.13:337][769]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudWider.NS_CloudWider:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Asteroids_Collection_1/Static_Meshes/SM_Asteroid_Mineral_Test.SM_Asteroid_Mineral_Test
+[2023.05.14-23.08.13:337][769]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudOverlap.NS_CloudOverlap:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Assets/3D/Ships/Frigate/FBX/Frigate_B.Frigate_B
+[2023.05.14-23.08.13:337][769]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_Cloud.NS_Cloud:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Asteroids_Collection_1/Static_Meshes/SM_Asteroid_Mineral_Test.SM_Asteroid_Mineral_Test
+[2023.05.14-23.08.13:337][769]LogNiagara: NiagaraStaticMeshDataInterface used by CPU emitter and does not allow CPU access. Interface: NiagaraDataInterfaceStaticMesh /Game/Assets/3D/VFX/NebulaCloud/NS_CloudOverlap.NS_CloudOverlap:NE_Cloud.SpawnScript.NiagaraDataInterfaceStaticMesh_0, Mesh: StaticMesh /Game/Assets/3D/Ships/Frigate/FBX/Frigate_B.Frigate_B
+[2023.05.14-23.08.13:344][769]LogWorld: Bringing up level for play took: 0.100919
+[2023.05.14-23.08.13:346][769]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2023.05.14-23.08.13:419][769]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.14-23.08.13:419][769]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.14-23.08.13:422][769]PIE: Server logged in
+[2023.05.14-23.08.13:423][769]PIE: Play in editor total start time 0.632 seconds.
+[2023.05.14-23.08.13:925][785]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:171][795]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:281][799]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:281][799]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:282][799]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:307][800]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:308][800]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:308][800]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:331][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:332][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:332][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:332][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:332][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:332][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:332][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:333][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:333][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:333][801]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:356][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:357][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:357][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:357][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:357][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:358][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:358][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:358][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:358][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:358][802]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:384][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:384][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:384][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:385][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:385][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:385][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:385][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:385][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:385][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:386][803]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:409][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:409][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:410][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:410][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:410][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:410][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:410][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:411][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:411][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.14:411][804]LogBlueprintUserMessages: [StrategyHUD_C_0] Hello
+[2023.05.14-23.08.15:614][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.14-23.08.15:614][852]LogWorld: BeginTearingDown for /Game/Levels/DemoLevels/UEDPIE_0_DemoOpenLevel
+[2023.05.14-23.08.15:617][852]LogWorld: UWorld::CleanupWorld for DemoOpenLevel, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-23.08.15:631][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-23.08.15:649][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.14-23.08.15:659][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-23.08.15:730][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.14-23.08.15:749][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.05.14-23.08.15:751][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.05.14-23.08.15:799][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.05.14-23.08.15:825][853]LogPlayLevel: Display: Destroying online subsystem :Context_63
